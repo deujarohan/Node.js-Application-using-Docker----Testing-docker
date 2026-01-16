@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #d01e02;
+}
+#head{
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 40px;
+    font-weight: 500;
+    color: #FFD700;
+}
+#cards{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tas{
+    /* height: 320px;
+    width: 30%; */
+    border: 2px solid  black;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: aliceblue;
+}
+#cardA,#play,#cardB{
+    font-size: 50px;
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 250px;
+}
+img:hover{
+    height: 270px;
+}
+#picText{
+    position: absolute;
+    color: #107896;
+
+}
+#play{
+    height: 200px;
+    width: 135px;
+    border: 2px solid  transparent;
+    background-color: transparent;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+#cardA, #cardB{
+    height: 360px;
+    width: 220px;
+    border: 2px solid  transparent;
+    background-color: transparent;
+    color: white;
+}
+#score{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.point{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+}
