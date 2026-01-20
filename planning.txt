@@ -1,5 +1,7 @@
-## access simple application
-
-## it should be nodejs appliaction
-
-use docker
+Nodejs file + Dockerfile 
+      ↓
+docker build → Image
+      ↓
+docker run → Container
+      ↓
+(optional) Docker volume → persistent storage
